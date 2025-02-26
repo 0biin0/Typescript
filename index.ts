@@ -22,6 +22,7 @@ let 이름 :unknown;
 
 // let 변수1 : string = 이름; --> any tpye일 때 오류
 // 타입스크립트는 간단한 수학연산도 타입이 맞아야 한다
+
 let 나이 :string|number;
 // 나이 + 1; 오류 why? 문자 또는 숫자에 다 +가 가능함 그래서 union 타입에서는 허용 X
 
